@@ -87,9 +87,26 @@
                                     <action selector="touchCardButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mXS-s7-vZH"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Score: 0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ykS-vI-7Rx">
+                                <rect key="frame" x="16" y="626" width="343" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
+                    <connections>
+                        <outlet property="scoreLabel" destination="ykS-vI-7Rx" id="T9V-4d-NI8"/>
+                        <outletCollection property="cardButtons" destination="8Wp-F2-EFY" id="bmh-Mj-5O6"/>
+                        <outletCollection property="cardButtons" destination="8Wp-F2-EFY" id="RK3-rh-tNX"/>
+                        <outletCollection property="cardButtons" destination="8Sw-CW-mV2" id="3yb-fX-Baa"/>
+                        <outletCollection property="cardButtons" destination="mdP-Ov-FY9" id="eKN-UE-m0A"/>
+                        <outletCollection property="cardButtons" destination="khm-oT-nDH" id="33T-VK-AWN"/>
+                        <outletCollection property="cardButtons" destination="o6R-x7-MWM" id="NTa-xa-pRV"/>
+                        <outletCollection property="cardButtons" destination="L0K-p5-hPk" id="oPJ-mX-73Y"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
